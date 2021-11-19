@@ -6,6 +6,7 @@ import Button3 from './Button3.vue'
 import Button4 from './Button4.vue'
 import Button5 from './Button5.vue'
 import Button6 from './Button6.vue'
+import Button7 from './Button7.vue'
 
 defineProps({
   msg: String,
@@ -23,6 +24,7 @@ const count = ref(0)
     <button4></button4>
     <button5></button5>
     <button6></button6>
+    <button7></button7>
   </div>
 </template>
 
