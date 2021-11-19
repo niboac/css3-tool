@@ -2,22 +2,34 @@
 import { ref } from 'vue'
 import Button1 from './Button1.vue'
 import Button2 from './Button2.vue'
+import Button3 from './Button3.vue'
+import Button4 from './Button4.vue'
+import Button5 from './Button5.vue'
+import Button6 from './Button6.vue'
 
 defineProps({
-  msg: String
+  msg: String,
 })
 
 const count = ref(0)
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-  <Button1></Button1>
-  <Button2></Button2>
+  <div class="container">
+    <h1>{{ msg }}</h1>
+    <Button1></Button1>
+    <Button2></Button2>
+    <button3></button3>
+    <button4></button4>
+    <button5></button5>
+    <button6></button6>
+  </div>
 </template>
 
 <style scoped>
-a {
-  color: #42b983;
+.container {
+  background: #4e5d74;
+  background: linear-gradient(#54647d, #313946);
+  height: 100%;
 }
 </style>

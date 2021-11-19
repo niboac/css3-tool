@@ -6,6 +6,6 @@
   "html.format.indentInnerHtml": true,
   "editor.formatOnPaste": true,
   "[vue]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    "editor.defaultFormatter": "octref.vetur"
   }
 }
