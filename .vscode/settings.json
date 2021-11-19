@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "octref.vetur",
+  "vetur.format.defaultFormatter.html": "prettyhtml",
+  "html.format.endWithNewline": true,
+  "html.format.indentInnerHtml": true,
+  "editor.formatOnPaste": true,
+  "[vue]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  }
+}
