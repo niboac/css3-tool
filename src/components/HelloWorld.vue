@@ -17,6 +17,9 @@ const count = ref(0)
 
 <template>
   <div class="container">
+    <div>
+      <span style="background-color: red;padding:1px;line-height:1; font-size: 19px;">SDKF是的房间里卡按时</span>
+    </div>
     <h1>{{ msg }}</h1>
     <Button1></Button1>
     <Button2></Button2>
